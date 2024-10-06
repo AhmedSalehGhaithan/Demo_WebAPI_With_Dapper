@@ -1,0 +1,10 @@
+Create Database DemoDapperDb
+Go
+
+Create Table Product (
+	Id INT IDENTITY(1,1) Primary key,
+	Name varchar(100) not null,
+	Price Decimal (18,2) not null
+)
+
+Go
